@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data is downloaded, never committed.
+data/raw/
+data/nulls/
+data/trials/
+data/holdout/*.parquet
+data/holdout/ACCESS_LOG.txt
+
+outputs/
+*.egg-info/
